@@ -4,7 +4,6 @@ var toSource = require("tosource");
 rcu.init(Ractive);
 
 createComponent = function(definition) {
-  console.log(definition);
   var components_output = [];
   components_output.push('var components = {};');
 
